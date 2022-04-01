@@ -18,7 +18,7 @@ func homePage(page http.ResponseWriter, r *http.Request) {
 }
 
 func mishka(page http.ResponseWriter, r *http.Request) {
-	user1 := User{"Mike", 29, []string{"mast", "coding", "sfgg"}}
+	user1 := User{"Mike", 29, []string{"mast", "codiqweng", "sfgg"}}
 	tmpl, _ := template.ParseFiles("templates/home_page.html")
 	tmpl.Execute(page, user1)
 }
